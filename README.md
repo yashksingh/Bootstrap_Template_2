@@ -63,7 +63,7 @@ Major changes include:
 
 <hr>
 
-<img src = "">
+<img src = "https://github.com/yashksingh/Bootstrap_Template_2/blob/main/Wiki_images/domenico-loia-hGV2TfOh0ns-unsplash.jpg">
 
 <hr>
 

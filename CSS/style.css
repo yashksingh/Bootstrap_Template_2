@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cover-bg{
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mt-20{
+    margin-top: 20px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-30{
+    margin-bottom: 30px;   
+}
+.pb-35{
+    padding-bottom: 35px;
+}
+.mt-35{
+    margin-top: 35px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.py-15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h1, h2, h3, h4{
+    font-family: 'lato',sans-serif;
+    color: #151515;
+    font-weight: 700;
+}
+
+p{
+    line-height: 1.6;
+    color: #777
+    ;
+}
+span, a{
+    display: inline-block;
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Images/1.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.banner .caption h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner .caption h2{
+    font-size: 70px;
+    color: #fff;
+    letter-spacing: -1px;
+}
+
+.banner .caption p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 32px;
+    opacity: 0.7;
+}
+
+.banner .caption .social_icon a{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #1957f3;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    transition: 0.5s all ;
+}
+
+.banner .caption .social_icon a:hover{
+    color: #1957f3;
+    background-color: white;
+}
+
+.section_padding{
+    padding: 100px 0;
+}
+.section_title{
+    position: relative;
+    margin-bottom: 70px;
+    width: 100%;
+}
+.section_title p{
+    background-color: #1957f3;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 12px;
+    letter-spacing: 1px;
+}
+
+.section_title h3{
+    position: relative;
+    font-size: 36px;
+    text-transform: capitalize;
+    line-height: 1.14;
+    letter-spacing: 1.4px;
+    padding-bottom: 13px;
+}
+.section_title h3:after{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 2px;
+    bottom: -30px;
+    left: 50%;
+    background-color: #1957f3;
+    transition: translate(-50%,0);
+}
+
+/** Buttons  CSS **/
+.btn{
+    background-color: #1957f3;
+    border: 2px solid #1957f3;
+    padding: 15px 20px;
+    box-shadow: inset 0 0 0 0 #fff;
+    letter-spacing: 1px;
+    border-radius: 0;
+    color: #fff;
+    font-size: 14px;
+    transition: 0.8s all;
+}
+
+.btn:hover{
+    box-shadow: inset 12em 0 0 0 #fff;
+    color: #1957f3;
+
+}
+
+
+
+
+/** Footer Section CSS **/
+
+.footer{
+    background-color: #212121;
+    padding: 80px 0;
+}
+
+.footer .logo{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.footer .logo .custom_logo{
+    background-color: #1957f3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 25px;
+    letter-spacing: 1px;
+    line-height: 2;
+    transform: skewX(25deg);
+}
+.footer .logo .custom_logo span{
+    transform: skewX(-25deg);
+}
+
+.footer .social_icon{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.footer .social_icon a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #252525;
+    transition: 0.5s all;
+}
+.footer .social_icon a i{
+    color: #fff;
+    font-size: 14px;
+}
+.footer .social_icon a:hover{
+    background: #1957f3;
+}
+.footer .copy{
+    width: 100%;
+    padding-top: 30px;
+}
+.footer .copy h6{
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+/** Navbar CSS **/
+.custom_logo{
+    background-color: #1957f3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 25px;
+    letter-spacing: 1px;
+    line-height: 2;
+    transform: skewX(25deg);
+}
+.custom_logo span{
+    transform: skewX(-25deg);
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    transition: 0.5s all;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #1957f3;
+}
+.navbar{
+    padding: 50px 0;
+    background: transparent;
+}
+
+
+.nav-scroll{
+    background: ghostwhite;
+    box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.05);
+    transition: 0.5s all;
+}
+
+.nav-scroll .navbar-nav li a{
+    color: #333 !important;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    color: #1957f3 !important 
+}
+
+.navbar .navbar-toggler span{
+    color: #fff;
+}
+.navbar .navbar-toggler{
+    border: none;
+}
+
+.navbar .navbar-toggler:focus,
+.navbar .navbar-toggler:active{
+    outline: none;
+    box-shadow: none;
+}
+
+/** Media Queries **/
+
+
+@media only screen and (max-width: 991px){
+    .navbar .container{
+        max-width: 100%;
+    }
+    .navbar .custom_logo{
+        margin-left: 20px;
+        padding: 0 10px;
+        font-size: 16px;
+    }
+    .nav-scroll .navbar-toggler span{
+        color: #333;
+    }
+    .navbar .navbar-collapse{
+        overflow: hidden;
+        background: #111;
+        color: #fff !important;
+        text-align: center;
+        padding: 10px 0;
+        margin: 10px 0;
+    }
+    .nav-scroll .navbar-collapse{
+        background: #fff !important;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .banner .caption h4{
+        font-size: 16px;
+    }
+    .banner .caption h2{
+        font-size: 35px;
+    }
+    .banner .caption p br{
+        display: none;
+    }
+    .hire_me h2{
+        font-size: 30px;
+    }
+    .about .part_text .info li{
+        width: 100%;
+    }
+    .part_text{
+        padding-bottom: 100px;
+    }
+    .about .part_text h4{
+        padding-top: 20px;
+    }
+    .contact .part-info .info-block{
+        border: none;
+    }
+    .xs-md-30{
+        margin-bottom: 30px;
+    }
+    .blog-item{
+        margin-bottom: 20px;
+    }
+
+}

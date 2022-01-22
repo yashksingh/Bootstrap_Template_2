@@ -1,0 +1,77 @@
+/** Contact Section CSS **/
+
+.contact{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Images/7.jpg);
+    background-attachment: fixed;
+}
+
+.contact .section_title h3{
+    color: #fff;
+}
+
+.contact .part-info{
+    background: linear-gradient(to right, transparent, rgba(200, 200, 200, 0.1), transparent);
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.contact .info-block{
+    border-right: 1px solid #fff;
+}
+
+.contact .part-info .info-block .icon{
+    margin-bottom: 15px;
+}
+.contact .part-info .info-block .icon i{
+    display: inline-block;
+    color: #fff;
+    font-size: 38px;
+}
+
+.contact .part-info .info-block h5{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.contact .part-info .info-block p{
+    color: #fff;
+    opacity: 0.9;
+}
+.contact .part-info .col-md-4:last-child .info-block{
+    border-right: 0;
+}
+
+.contact .contact-form{
+    background: linear-gradient(to right, transparent, rgba(200, 200, 200, 0.1), transparent);
+    padding: 30px;
+
+}
+.contact .contact-form input, 
+.contact .contact-form textarea{
+    color: #fff;
+    background: transparent;
+    padding: 10px 15px;
+    border-radius: 0;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.28);
+    margin-bottom: 15px;
+    font-size: 12px;
+    transition: 0.3s all;
+}
+
+.contact .contact-form input::placeholder, 
+.contact .contact-form textarea::placeholder{
+    color: #fff;
+}
+
+.contact .contact-form input:focus, 
+.contact .contact-form textarea:focus{
+    border: 1px solid #fff;
+    outline: none;
+    box-shadow: none;
+}
+.contact .contact-form textarea{
+    height: 120px;
+
+}
+

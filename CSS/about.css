@@ -1,0 +1,13 @@
+/** About Section CSS **/
+.about .part_text h4{
+    font-size: 24px;
+
+}
+.about .part_text p{
+    border-bottom: 1px solid #f1f1f1;
+}
+.about .part_text .info li{
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 15px;
+}

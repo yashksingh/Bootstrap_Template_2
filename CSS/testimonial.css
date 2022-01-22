@@ -1,0 +1,60 @@
+/** Testimonial Section Css**/
+
+.testimonial{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../Images/5.jpg);
+    background-attachment: fixed;
+}
+
+.testimonial .section_title h3{
+    color: #fff;
+}
+
+.testimonial .testimonial_item{
+    text-align: center;
+    background: linear-gradient(to right, transparent, rgba(200, 200, 200, 0.1), transparent);
+    padding: 30px;
+}
+
+.testimonial .testimonial_item .icon i{
+    color: #1957f3;
+    font-size: 30px;
+}
+
+.testimonial .testimonial_item  p{
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.testimonial .testimonial_item .testimonial_author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial .testimonial_item .testimonial_author .part_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial .testimonial_item .testimonial_author .part_img img{
+   
+    border-radius: 50%;
+}
+
+.testimonial .testimonial_item .testimonial_author .text{
+    text-align: left;
+}
+
+.testimonial .testimonial_item .testimonial_author .text h5{
+   color: #fff;
+   font-size: 16px;
+   margin-bottom: 5px;
+}
+.testimonial .testimonial_item .testimonial_author .text h6{
+   color: #ccc;
+   font-size: 14px;
+}

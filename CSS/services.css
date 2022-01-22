@@ -1,0 +1,51 @@
+/** Service section CSS **/
+
+.services .services_box{
+    border: 1px solid #fafafa;
+    transition: all 0.5s;
+}
+
+.services .services_box:hover{
+    box-shadow: -1px 3px 10px 0 rgba(0, 0, 0, 0.06);
+}
+
+.services .box{
+    position: relative;
+    padding: 50px;
+}
+
+.services .services_box .icon i{
+    color: #1957f3;
+    font-size: 38px;
+}
+
+.services .box_title{
+    position: relative;
+    margin-top: 10px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.services .box_title:before{
+    content: '';
+    display: inline-block;
+    width: 15%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(91, 52, 255, 0.2);
+}
+
+.services .services_box:after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid #f7f7f7;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}

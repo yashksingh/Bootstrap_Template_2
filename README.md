@@ -29,7 +29,7 @@ On January 31, 2012, Bootstrap 2 was released, which added built-in support for 
 
 <hr>
 
-<img src="">
+<img src="https://github.com/yashksingh/Bootstrap_Template_2/blob/main/Wiki_images/lee-campbell-DtDlVpy-vvQ-unsplash.jpg">
 
 <hr>
 

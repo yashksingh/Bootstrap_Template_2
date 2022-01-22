@@ -8,7 +8,7 @@ As of August 2021, Bootstrap is the tenth most starred project on GitHub, with o
 
 <hr>
 
-<img src="">
+<img src="https://github.com/yashksingh/Bootstrap_Template_2/blob/main/Wiki_images/ben-kolde-bs2Ba7t69mM-unsplash.jpg">
 
 <hr>
 
